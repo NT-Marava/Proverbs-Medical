@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "description": "•We Supply medical and surgical instruments"
+    },
+   
+    {
+        "id": 3,
+        "name": "",
+        "description": "•We Supply Dental and Radiology equipment"
+    },
+    {
+        "id": 4,
+        "name": "",
+        "description": "• We install and service equipment, advise and train customers on use"
+    },
+    {
+        "id": 5,
+        "name": "",
+        "description": "•Sales and distribution of diagnostics, medical supplies, equipment and instruments"
+    },
+    {
+        "id": 6,
+        "name": "",
+        "description": "•Ensuring availability of cost effective, high quality and safe medical supplies. "
+    },
+    {
+        "id": 7,
+        "name": "",
+        "description": "• To provide technical advice and training to our customers"
+    }, {
+        "id": 2,
+        "name": "",
+        "description": "•We Supply hospital furniture and rapid Diagnostics "
+    }
+   
+]

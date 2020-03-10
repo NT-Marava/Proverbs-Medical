@@ -1,0 +1,233 @@
+<!-- Main Content -->
+<div id="content" class="site-content" style="background: rgb(255, 255, 255);">
+    <!-- Breadcrumb -->
+    <div id="breadcrumb">
+        <div class="container">
+            <h2 class="title">Products</h2>
+
+            <ul class="breadcrumb">
+                <li><a routerLink="/">Home</a></li>
+                <li><a>Products</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar -->
+            <div id="left-column" class="sidebar col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <!-- Block - Product Categories -->
+                <div class="block product-categories">
+                    <h3 class="block-title">Categories</h3>
+                    <div class="block-content">
+                        <div class="item" *ngFor="let category of categories">
+                            <span class="arrow collapsed" data-toggle="collapse" [attr.data-target]='"#"+category.slug'
+                                aria-expanded="false" role="button">
+                                <i class="zmdi zmdi-minus"></i>
+                                <i class="zmdi zmdi-plus"></i>
+                            </span>
+                            <a class="category-title" (click)="getCategoryProducts(category.id)" style="cursor:pointer">{{category.name}}</a>
+                            <div class="sub-category collapse" [id]=category.slug aria-expanded="true" role="main">
+                                <div class="item" *ngFor="let product of category.products">
+                                    <a style="cursor:pointer" (click)="getSingleProduct(product.id)">{{product.name}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Content -->
+            <div id="center-column" class="col-lg-9 col-md-9 col-sm-9 col-xs-12" *ngIf="!product && !categoryProducts">
+                <div class="product-category-page">
+                    <!-- Nav Bar -->
+                    <div class="products-bar">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <div class="gridlist-toggle" role="tablist">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active">
+                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i class="fa fa-th-large"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="total-products">There are {{numOfProducts}} products</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <!-- Products Grid -->
+                        <div class="tab-pane active" id="products-grid">
+                            <div class="products-block">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" *ngFor="let category of categories">
+                                        <div class="product-item" (click)="getCategoryProducts(category.id)" 
+                                        style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);">
+                                            <div class="product-image">
+                                                <a>
+                                                    <img class="img-responsive" src="{{category.imageUrl }}" alt="Product Image">
+                                                </a>
+                                            </div>
+                                            <div class="product-title">
+                                                <a (click)="getCategoryProducts(category.id)" style="width: 165px;
+                                                display: block;
+                                                overflow: hidden;
+                                                white-space: nowrap;
+                                                text-overflow: ellipsis;
+                                                text-align: center !important; cursor: pointer">
+                                                    {{category.name}}
+                                                </a>
+                                            </div>
+                                            <div class="product-rating">
+                                                <div class="star on"></div>
+                                                <div class="star on"></div>
+                                                <div class="star on "></div>
+                                                <div class="star on"></div>
+                                                <div class="star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Products List -->
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div id="center-column" class="col-lg-9 col-md-9 col-sm-9 col-xs-12" *ngIf="product">
+                <div class="product-detail" *ngFor="let product  of product ">
+                    <div class="products-block layout-5">
+                        <div class="product-item">
+                            <div class="product-title">
+                                <br>
+                                <br>
+                            </div>
+
+                            <div class="row">
+                                <div class="product-left col-md-5 col-sm-5 col-xs-12">
+                                    <div class="product-image horizontal">
+                                        <div class="main-image">
+                                            <img class="img-responsive" src="{{product.imageUrl}}" alt="Product Image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-right col-md-7 col-sm-7 col-xs-12">
+                                    <div class="product-info">
+                                        <div class="product-title">
+                                            {{ product.name }}
+                                        </div>
+                                        <br>
+                                        <div class="product-price">
+                                            <span class="sale-price">$80.00</span>
+                                        </div>
+
+                                        <div class="product-stock">
+                                            <span class="availability">Availability :</span><i class="fa fa-check-square-o"
+                                                aria-hidden="true"></i>In stock
+                                        </div>
+
+                                        <div class="product-short-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        </div>
+
+
+                                        <div class="product-extra">
+                                            <div class="item">
+
+                                            </div>
+                                            <div class="item">
+                                                <span class="control-label">Categories :</span>
+                                                <a href="#" title="Vegetables">{{product.category}}</a>
+                                            </div>
+                                            <div class="item">
+                                                <span class="control-label">Tags :</span>
+                                                <a title="Vegetables">Medical Supplies</a>
+                                                <a title="Fruits">Health Equipment</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="center-column" class="col-lg-9 col-md-9 col-sm-9 col-xs-12" *ngIf="categoryProducts && !product">
+                <div class="product-category-page">
+                    <!-- Nav Bar -->
+                    <div class="products-bar">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <div class="gridlist-toggle" role="tablist">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active">
+                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i class="fa fa-th-large"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="total-products">There are {{numOfProducts}} products</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <!-- Products Grid -->
+                        <div class="product-title">
+                            <h4 class="text-center"> <b> {{ categoryName }}</b></h4>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="tab-pane active" id="products-grid">
+                            <div class="products-block">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" *ngFor="let product of categoryProducts">
+                                        <div class="product-item" style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);">
+                                            <div class="product-image">
+                                                <a (click)="getSingleProduct(product.id)">
+                                                    <img class="img-responsive" src="{{product.imageUrl }}" alt="Product Image">
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <div class="product-title" style="width:100%; ">
+                                                <a (click)="getSingleProduct(product.id)" style="    width: 165px;
+                                                display: block;
+                                                overflow: hidden;
+                                                white-space: nowrap;
+                                                text-overflow: ellipsis;
+                                                text-align: center !important;
+                                                cursor: pointer;">
+                                                    {{product.name}}
+                                                </a>
+                                            </div>
+                                            <div class="product-rating">
+                                                <div class="star on"></div>
+                                                <div class="star on"></div>
+                                                <div class="star on "></div>
+                                                <div class="star on"></div>
+                                                <div class="star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Products List -->
+                    </div>
+
+                    <!-- Pagination Bar -->
+
+                </div>
+
+                <!-- TODO: DETAIL PAGE -->
+            </div>
+        </div>
+    </div>

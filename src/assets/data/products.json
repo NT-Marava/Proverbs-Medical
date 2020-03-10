@@ -1,0 +1,513 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Oxygen Masks",
+        "price": "",
+        "imageUrl": "assets/img/products/oxygen-mask.png"
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Endotracheal Tubes",
+        "price": "",
+        "imageUrl": "assets/img/products/endotracheal-tube.png"
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Reinforced endotracheal tubes",
+        "price": "",
+        "imageUrl": "assets/img/products/reinforced-endotracheal-tube.png"
+    },
+    {
+        "id": 4,
+        "categoryId": 1,
+        "name": "Laryngeal Masks",
+        "price": "",
+        "imageUrl": "assets/img/products/laryngeal-mask.png"
+    },
+    {
+        "id": 5,
+        "categoryId": 1,
+        "name": "Closed suction catheter",
+        "price": "",
+        "imageUrl": "assets/img/products/closed-suction-catheter.png"
+    },
+    {
+        "id": 6,
+        "categoryId": 1,
+        "name": "Nasopharyngeal airways",
+        "price": "",
+        "imageUrl": "assets/img/products/nasopharyngeal-airway.png"
+    },
+    {
+        "id": 7,
+        "categoryId": 1,
+        "name": "Guedel airway",
+        "price": "",
+        "imageUrl": "assets/img/products/guedel-airway.png"
+    },
+    {
+        "id": 8,
+        "categoryId": 1,
+        "name": "Nebulizer mask",
+        "price": "",
+        "imageUrl": "assets/img/products/nebuliser-mask.png"
+    },
+    {
+        "id": 9,
+        "categoryId": 1,
+        "name": "Oxygen nasal cannula",
+        "price": "",
+        "imageUrl": "assets/img/products/oxygen-nasal-cannula.png"
+    },
+    {
+        "id": 10,
+        "categoryId": 2,
+        "name": "Blood lancets",
+        "price": "",
+        "imageUrl": "assets/img/products/blood-lancet.png"
+    },
+    {
+        "id": 11,
+        "categoryId": 2,
+        "name": "Stainless steel lancets",
+        "price": "",
+        "imageUrl": "assets/img/products/blood-lancets.png"
+    },
+    {
+        "id": 12,
+        "categoryId": 2,
+        "name": "Epidural needles",
+        "price": "",
+        "imageUrl": "assets/img/products/epidural-needles.png"
+    },
+    {
+        "id": 13,
+        "categoryId": 2,
+        "name": "Dental needles",
+        "price": "",
+        "imageUrl": "assets/img/products/dental-needles.png"
+    },
+    {
+        "id": 15,
+        "categoryId": 2,
+        "name": "IV cannula",
+        "price": "",
+        "imageUrl": "assets/img/products/iv-cannula.png"
+    },
+    {
+        "id": 16,
+        "categoryId": 2,
+        "name": "Spinal needles",
+        "price": "",
+        "imageUrl": "assets/img/products/spinal-needles.png"
+    },
+    {
+        "id": 17,
+        "categoryId": 2,
+        "name": "Blood vacuum taking needle",
+        "price": "",
+        "imageUrl": "assets/img/products/blood-vacuum-taking-needle.png"
+    },
+    {
+        "id": 18,
+        "categoryId": 2,
+        "name": "Hypordemic luer needles",
+        "price": "",
+        "imageUrl": "assets/img/products/hypordemic-luer-needle.png"
+    },
+    {
+        "id": 19,
+        "categoryId": 2,
+        "name": "Fistula needles",
+        "price": "",
+        "imageUrl": "assets/img/products/fistula-needle.png"
+    },
+    {
+        "id": 20,
+        "categoryId": 2,
+        "name": "IV catheters",
+        "price": "",
+        "imageUrl": "assets/img/products/iv-catheter.png"
+    },
+    {
+        "id": 21,
+        "categoryId": 2,
+        "name": "Insulin pen needles",
+        "price": "",
+        "imageUrl": "assets/img/products/insulin-pen-needles-2.png"
+    },
+    {
+        "id": 22,
+        "categoryId": 3,
+        "name": "Diabetic syringe with needle",
+        "price": "",
+        "imageUrl": "assets/img/products/insulin-pen-needles.png"
+    },
+    {
+        "id": 23,
+        "categoryId": 3,
+        "name": "Disposable 3-part syringe",
+        "price": "",
+        "imageUrl": "assets/img/products/disposable-3-part-syringe.png"
+    },
+    {
+        "id": 24,
+        "categoryId": 3,
+        "name": "Sterile safety syringes",
+        "price": "",
+        "imageUrl": "assets/img/products/3-part-disposable-syringe.png"
+    },
+    {
+        "id": 25,
+        "categoryId": 3,
+        "name": "Sterile auto disable syringes for single use",
+        "price": "",
+        "imageUrl": "assets/img/products/sterile-auto-disable-syringe.png"
+    },
+    {
+        "id": 26,
+        "categoryId": 3,
+        "name": "Disposable 2-part syringes",
+        "price": "",
+        "imageUrl": "assets/img/products/disposable-2-part-syringe.png"
+    },
+    {
+        "id": 27,
+        "categoryId": 4,
+        "name": "Zinc- oxide tape ",
+        "price": "",
+        "imageUrl": "assets/img/products/zinc-oxide-tape.png"
+    },
+    {
+        "id": 28,
+        "categoryId": 4,
+        "name": "Kinesiology tape ",
+        "price": "",
+        "imageUrl": "assets/img/products/kinesiology-tape.png"
+    },
+    {
+        "id": 29,
+        "categoryId": 4,
+        "name": " Adhesive wound dressing tape",
+        "price": "",
+        "imageUrl": "assets/img/products/adhesive-wound-dressing-tape.png"
+    },
+    {
+        "id": 30,
+        "categoryId": 4,
+        "name": "Silk cloth surgical tape ",
+        "price": "",
+        "imageUrl": "assets/img/products/silk-cloth-surgical-tape.png"
+    },
+    {
+        "id": 31,
+        "categoryId": 4,
+        "name": " Microporous surgical tape",
+        "price": "",
+        "imageUrl": "assets/img/products/microporous-surgical-tape.png"
+    },
+    {
+        "id": 32,
+        "categoryId": 4,
+        "name": "Transparent Surgical Tape ",
+        "price": "",
+        "imageUrl": "assets/img/products/transparent-surgical-tape.png"
+    },
+    {
+        "id": 33,
+        "categoryId": 5,
+        "name": "Linen savers ",
+        "price": "",
+        "imageUrl": "assets/img/products/linen-savers.png"
+    },
+    {
+        "id": 34,
+        "categoryId": 5,
+        "name": "Disposable aprons ",
+        "price": "",
+        "imageUrl": "assets/img/products/disposable-apron.png"
+    },
+    {
+        "id": 35,
+        "categoryId": 5,
+        "name": "Disposable underwear ",
+        "price": "",
+        "imageUrl": "assets/img/products/disposable-underwear.png"
+    },
+    {
+        "id": 36,
+        "categoryId": 5,
+        "name": "Adult diapers ",
+        "price": "",
+        "imageUrl": "assets/img/products/adult-diapers.png"
+    },
+    {
+        "id": 37,
+        "categoryId": 5,
+        "name": " Amniotic hooks",
+        "price": "",
+        "imageUrl": "assets/img/products/amniotic-hook.png"
+    },
+    {
+        "id": 38,
+        "categoryId": 5,
+        "name": " Biopsy punch",
+        "price": "",
+        "imageUrl": "assets/img/products/biopsy-punch.png"
+    },
+    {
+        "id": 39,
+        "categoryId": 5,
+        "name": "Cervix brush ",
+        "price": "",
+        "imageUrl": "assets/img/products/cervix-brush.png"
+    },
+    {
+        "id": 40,
+        "categoryId": 5,
+        "name": " Cytological fixative spray",
+        "price": "",
+        "imageUrl": "assets/img/products/cytological-fixative-spray.png"
+    },
+    {
+        "id": 41,
+        "categoryId": 5,
+        "name": "Infant feeding tubes ",
+        "price": "",
+        "imageUrl": "assets/img/products/infant-feeding-tube.png"
+    },
+    {
+        "id": 42,
+        "categoryId": 5,
+        "name": " Vaginal speculum",
+        "price": "",
+        "imageUrl": "assets/img/products/vaginal-speculum.png"
+    },
+    {
+        "id": 43,
+        "categoryId": 5,
+        "name": " Tongue depressors",
+        "price": "",
+        "imageUrl": "assets/img/products/toungue-depressors.png"
+    },
+    {
+        "id": 44,
+        "categoryId": 5,
+        "name": "PAP smear kits ",
+        "price": "",
+        "imageUrl": "assets/img/products/pap-smear-kit.png"
+    },
+    {
+        "id": 45,
+        "categoryId": 5,
+        "name": "Tablet counting tray and spatula ",
+        "price": "",
+        "imageUrl": "assets/img/products/tablet-counting-tray-and-spatula.png"
+    },
+    {
+        "id": 46,
+        "categoryId": 5,
+        "name": "Surgeon’s brush ",
+        "price": "",
+        "imageUrl": "assets/img/products/surgeons-brush.png"
+    },
+    {
+        "id": 47,
+        "categoryId": 5,
+        "name": " Stomach feeding tubes",
+        "price": "",
+        "imageUrl": "assets/img/products/stomach-feeding-tube.png"
+    },
+    {
+        "id": 48,
+        "categoryId": 5,
+        "name": " Infusion sets",
+        "price": "",
+        "imageUrl": "assets/img/products/infusion-sets.png"
+    },
+    {
+        "id": 49,
+        "categoryId": 6,
+        "name": "Chromic catgut sutures ",
+        "price": "",
+        "imageUrl": "assets/img/products/chromic-catgut-sature.png"
+    },
+    {
+        "id": 50,
+        "categoryId": 6,
+        "name": "Nylon sutures ",
+        "price": "",
+        "imageUrl": "assets/img/products/nylon-sature.png"
+    },
+    {
+        "id": 51,
+        "categoryId": 6,
+        "name": "Polypropylene sutures ",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 52,
+        "categoryId": 6,
+        "name": " Polyglycolic Acid sutures",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 53,
+        "categoryId": 6,
+        "name": "Polygrecaprone sutures ",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 54,
+        "categoryId": 6,
+        "name": "Silk sutures ",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 55,
+        "categoryId": 6,
+        "name": " Bone wax",
+        "price": "",
+        "imageUrl": "assets/img/products/bone-wax.png"
+    },
+    {
+        "id": 56,
+        "categoryId": 6,
+        "name": "Polyglactin suture ",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 57,
+        "categoryId": 6,
+        "name": " Surgical drapes",
+        "price": "",
+        "imageUrl": "assets/img/products/surgical-drapes.png"
+    },
+    {
+        "id": 58,
+        "categoryId": 7,
+        "name": "Intraoccular lenses ",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 58,
+        "categoryId": 7,
+        "name": " Colostomy products",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 59,
+        "categoryId": 7,
+        "name": " Urology devices and lmplants",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 60,
+        "categoryId": 7,
+        "name": "Hemodialysis products ",
+        "price": "",
+        "imageUrl": "assets/img/products/hermodialysis-machine.png"
+    },
+    {
+        "id": 61,
+        "categoryId": 7,
+        "name": " Accu-Chek blood glucose monitor and consumables",
+        "price": "",
+        "imageUrl": "assets/img/products/accu-chek-blood-glucose.png"
+    },
+    {
+        "id": 62,
+        "categoryId": 8,
+        "name": " ESWL machine",
+        "price": "",
+        "imageUrl": "assets/img/products/eswl-machine.png"
+    },
+    {
+        "id": 63,
+        "categoryId": 8,
+        "name": "X-RAY Machines (c-arm ) ",
+        "price": "",
+        "imageUrl": "assets/img/products/x-ray-c-arm-machine.png"
+    },
+    {
+        "id": 64,
+        "categoryId": 8,
+        "name": " Radiology Equipment",
+        "price": "",
+        "imageUrl": "assets/img/products/radiology-equipment.png"
+    },
+    {
+        "id": 65,
+        "categoryId": 8,
+        "name": "Dental Equipment ",
+        "price": "",
+        "imageUrl": "assets/img/products/dental-equipment.png"
+    },
+    {
+        "id": 66,
+        "categoryId": 8,
+        "name": "Dialysis equipment ",
+        "price": "",
+        "imageUrl": "assets/img/products/dialysis-machine.png"
+    },
+    {
+        "id": 67,
+        "categoryId": 8,
+        "name": "Imaging equipment ",
+        "price": "",
+        "imageUrl": "assets/img/products/imaging-equipment.png"
+    },
+    {
+        "id": 68,
+        "categoryId": 8,
+        "name": "Opthalmology equipment ",
+        "price": "",
+        "imageUrl": "assets/img/products/ophtalmology-equipment.png"
+    },
+    {
+        "id": 69,
+        "categoryId": 8,
+        "name": " Patient support ( wheel chairs , walking stick …..etc)",
+        "price": "",
+        "imageUrl": "assets/img/products/patient-support.png"
+    },
+    {
+        "id": 70,
+        "categoryId": 8,
+        "name": "Beds/exam tables ",
+        "price": "",
+        "imageUrl": "assets/img/products/exam-tables.png"
+    },
+    {
+        "id": 71,
+        "categoryId": 8,
+        "name": "MRI Neurology equipment ",
+        "price": "",
+        "imageUrl": "assets/img/products/mri-neurology-equipment.png"
+    },
+    {
+        "id": 72,
+        "categoryId": 8,
+        "name": " Autoclaves /Sterilizers",
+        "price": "",
+        "imageUrl": "assets/img/products/sterilizer.png"
+    },
+    {
+        "id": 73,
+        "categoryId": 8,
+        "name": " Obgyn/Neonatal Equipment",
+        "price": "",
+        "imageUrl": "assets/img/products/obgyn-equipment.png"
+    }
+]

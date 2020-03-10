@@ -1,0 +1,147 @@
+<!-- Main Content -->
+<div id="content" class="site-content">
+    <!-- Breadcrumb -->
+    <div id="breadcrumb">
+        <div class="container">
+            <h2 class="title">About Us</h2>
+
+            <ul class="breadcrumb">
+                <li><a title="Home">Home</a></li>
+                <li><span>About Us</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about-us intro">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="intro-header">
+                        <h3>Proverbs Medical Supplies</h3>
+                        <p>Proverbs Medical Pty Ltd is a well-established company that was started in 2017 by a team of
+                            highly qualified, skilled and determined professionals, to set an outstanding trend in
+                            supplying hospital and Laboratory equipment, Furniture,
+                            Rapid Diagnostics, Dental, surgical instruments and general medical supplies. </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="intro-left">
+                        <div class="intro-item">
+                            <p><img src="assets/img/intro-icon-1.png" alt="Intro Image"></p>
+                            <h4>Vision</h4>
+                            <p>To be reputable regionally as the prime supplier of Medical Equipment,
+                                Rapid Diagnostics, General Medical Supplies and Health Care Products.</p>
+                        </div>
+
+                        <div class="intro-item">
+                            <p><img src="assets/img/intro-icon-3.png" alt="Intro Image"></p>
+                            <h4>Values</h4>
+                            <p>• Professionalism
+                                • Integrity
+                                • Mutual respect
+                                • Responsiveness
+                                • Timely response and delivery
+                                • Customer service Credibility
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="effect">
+                        <a>
+                            <img class="img-responsive" src="assets/img/intro-01.png" alt="Intro Image">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="intro-right">
+                        <div class="intro-item">
+                            <p><img src="assets/img/intro-icon-2.png" alt="Intro Image"></p>
+                            <h4>Our Mission</h4>
+                            <p>To uplift and maintain the health care system through providing quality medical
+                                equipment
+                                and supplies to the medical fraternity and health care partners at affordable costs.</p>
+                        </div>
+
+                        <div class="intro-item">
+                            <p><img src="assets/img/intro-icon-4.png" alt="Intro Image"></p>
+                            <h4>Our Services</h4>
+                            <p>• Supply of : • Medical and Surgical Instruments
+                                • Hospital Furniture and Rapid Diagnostics
+                                • Dental and Radiology Equipment
+                                • Hospital Consumable and Sundries,
+                                •Install and service equipment, advise and train customers on use
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="section products-block product-tab nav-color show-hover nav-round best-sellers">
+        <div class="block-title">
+            <h2 class="title">Our <span>Services</span></h2>
+            <div class="sub-title">View our wide range of services we offer</div>
+        </div>
+
+        <div class="container">
+            <div id="center-column" class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                <div class="product-category-page">
+                    <!-- Nav Bar -->
+                    <div class="products-bar">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <!-- Products Grid -->
+                        <div class="tab-pane active" id="products-grid">
+                            <div class="products-block">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" *ngFor="let service of services">
+                                        <br>
+                                        <br>
+                                        <div class="product-item" style="background:#fff;box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);">
+                                            <div class="product-image">
+                                                <a style="text-align:center !important">
+                                                    <img class="img-responive" src="assets/img/intro-icon-4.png">
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <div class="product-title">
+                                                <a>
+                                                    {{service.description}}
+                                                </a>
+                                            </div>
+                                            <div class="product-rating">
+                                                <div class="star on"></div>
+                                                <div class="star on"></div>
+                                                <div class="star on "></div>
+                                                <div class="star on"></div>
+                                                <div class="star"></div>
+                                            </div>
+                                            <br>
+                                            <br>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Products List -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
