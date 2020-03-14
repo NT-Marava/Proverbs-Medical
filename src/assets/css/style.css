@@ -38,7 +38,7 @@
     background-color:transparent;
 }
 body{
-    font-family:Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins";
 }
 [class~=owl-theme] [class~=owl-dots] [class~=owl-dot] span:before{
     -webkit-transition:all .3s ease-in .1s;
@@ -206,7 +206,7 @@ body{
     background:#3ba66b;
 }
 [class~=btn]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 a:hover{
     color:#0080bd;
@@ -338,7 +338,7 @@ a[class~=color]:hover{
     transition:opacity .3s linear 0s;
 }
 [class~=block-title] [class~=title]{
-    font-family:"Playfair Display";
+    font-family: "apercu",sans-serif;
 }
 [class~=form] form textarea,[class~=form] form input[type="search"]{
     border-left-style:solid;
@@ -365,7 +365,7 @@ a[class~=color],[class~=block-title] [class~=title]{
     font-size:40px;
 }
 body{
-    font-size:14px;
+    font-size:13.5px;
 }
 [class~=owl-theme] [class~=owl-dots] [class~=owl-dot] span:before{
     width:12px;
@@ -1509,7 +1509,7 @@ input{
     padding-bottom:22px;
 }
 #main-menu > ul > li > a{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 .block-cart .dropdown-content .cart-content{
     -moz-box-shadow:.0625pc 0 .625pc rgba(0,0,0,.35);
@@ -1770,7 +1770,7 @@ input{
     border-top-width:medium;
 }
 [class~=block-cart] [class~=dropdown-content] [class~=cart-content] [class~=product-price],[class~=block-cart] [class~=dropdown-content] [class~=cart-content] [class~=product-name],[class~=products-block] [class~=product-item] [class~=product-countdown] [class~=item] [class~=number],[class~=block-cart] [class~=dropdown-content] [class~=cart-content] [class~=total]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=products-block] [class~=product-item] [class~=product-countdown] [class~=item] [class~=number]{
     width:100%;
@@ -2073,7 +2073,7 @@ input{
     font-size:.114583333in;
 }
 [class~=block-cart] [class~=dropdown-content] [class~=cart-content] [class~=cart-button]{
-    font-family:"Playfair Display",serif;
+    font-family:    font-family: "apercu",sans-serif;
 }
 [class~=products-block] [class~=product-item]:hover{
     border-bottom-color:transparent;
@@ -2133,7 +2133,7 @@ input{
     left:.9375pc;
 }
 [class~=products-block] [class~=product-item] [class~=product-title]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=intro] [class~=intro-right],[class~=intro] [class~=intro-left]{
     padding-top:0;
@@ -3021,7 +3021,7 @@ input{
     padding-bottom:22.5pt;
 }
 #main-menu [class~=dropdown-menu] ul li a{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=product-categories] [class~=item]{
     border-bottom-style:solid;
@@ -3174,7 +3174,7 @@ input{
     border-right-style:none;
 }
 [class~=intro] [class~=intro-header] h3{
-    font-family:"Playfair Display";
+    font-family: "apercu",sans-serif;
 }
 [class~=product-tab] [class~=tab-nav] ul li a img{
     margin-right:auto;
@@ -3204,7 +3204,7 @@ input{
     -moz-box-shadow:0 0 .625pc 0 rgba(0,0,0,.5);
 }
 [class~=intro] [class~=intro-header] h3{
-    font-size:.375in;
+    font-size: 30px;
 }
 [class~=block-cart] [class~=dropdown-content] [class~=cart-content] [class~=remove] i{
     color:#666;
@@ -3501,7 +3501,7 @@ height:815px;
     left:50%;
 }
 [class~=intro] [class~=intro-header] p{
-    font-family:"Playfair Display";
+    font-family: "apercu",sans-serif;
 }
 [class~=intro] [class~=intro-header] p{
     font-size:.145833333in;
@@ -3681,7 +3681,7 @@ height:815px;
     border-bottom-width:.0625pc;
 }
 [class~=product-category] [class~=item] [class~=title]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 .product-categories .item:last-child{
     border-radius:0 0 7.5pt 7.5pt;
@@ -4098,7 +4098,7 @@ height:815px;
     display:block;
 }
 [class~=product-price],[class~=intro] [class~=intro-item] h4{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 .products-block.layout-3 .product-item .product-buttons i{
     width:.3125in;
@@ -4503,7 +4503,7 @@ height:815px;
     color:#222;
 }
 [class~=testimonial] [class~=item]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=product-categories] [class~=item] [class~=sub-category] [class~=item] a{
     color:#909090;
@@ -4641,7 +4641,7 @@ height:815px;
     padding-top:0;
 }
 [class~=product-tab]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 .partners .partners-wrap{
     border-top-style:dashed;
@@ -4671,7 +4671,7 @@ height:815px;
     text-transform:uppercase;
 }
 [class~=latest-news] [class~=blog-info] [class~=blog-title]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=pagination-bar] [class~=pagination] ul li a[class~=prev]{
     padding-left:.15625in;
@@ -4908,7 +4908,7 @@ height:815px;
     padding-left:0;
 }
 [class~=payment-intro] [class~=item] [class~=title]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=mainmenu-active] #mobile-menu,[class~=home-2] [class~=topbar] [class~=topbar-content]{
     display:block;
@@ -5295,7 +5295,7 @@ height:815px;
     -webkit-transform:rotate(45deg);
 }
 [class~=home-2] [class~=newsletter] [class~=block-title]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 #mobile-menu [class~=close-mobile-menu] [class~=close-menu],[class~=home-2] [class~=intro]{
     padding-top:10px;
@@ -5970,7 +5970,7 @@ height:815px;
     -ms-justify-content:center;
 }
 [class~=product-categories] [class~=item] > a{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=home-2] [class~=two-columns] [class~=left-column] [class~=block-title] h2{
     text-align:center;
@@ -6732,7 +6732,7 @@ height:815px;
     max-width:300pt;
 }
 [class~=sidebar] [class~=product-categories] [class~=item] [class~=arrow][class~=collapsed]{
-    background:#d4cdae;
+    background:#0080bd;
 }
 [class~=sidebar] [class~=product-filter] [class~=filter-item] [class~=custom-checkbox] [class~=checkmark]{
     margin-right:.75pc;
@@ -6927,7 +6927,7 @@ height:815px;
     padding-right:0;
 }
 [class~=home-2] [class~=two-columns] [class~=left-column] [class~=block-title] h2{
-    font-family:"playfair display";
+    font-family: "apercu",sans-serif;
 }
 [class~=home-4] #main-menu{
     background:transparent;
@@ -7032,7 +7032,7 @@ height:815px;
     padding-bottom:.28125in;
 }
 [class~=home-2] [class~=left-column] [class~=payment-intro] [class~=block-content] [class~=item] [class~=title]{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 .sidebar .filter-color .left,[class~=sidebar] [class~=filter-color] [class~=right]{
     width:50%;
@@ -7361,7 +7361,7 @@ height:815px;
     border-top-style:solid;
 }
 [class~=home-3] [class~=intro] [class~=intro-content] [class~=item] h4{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=home-3] [class~=intro] [class~=intro-content] [class~=title],[class~=home-5] [class~=my-account]{
     text-align:center;
@@ -7379,7 +7379,7 @@ height:815px;
     font-size:.114583333in;
 }
 [class~=home-3] [class~=intro] [class~=intro-content] [class~=title]{
-    font-family:"Playfair Display";
+    font-family: "apercu",sans-serif;
 }
 [class~=home-3] [class~=intro] [class~=intro-content] [class~=up-left]:after,.home-2 .intro:before{
     content:"";
@@ -8510,7 +8510,7 @@ height:815px;
     background:transparent;
 }
 [class~=home-3] [class~=banners] [class~=banner-item] [class~=text] h3{
-    font-family:"Playfair Display";
+    font-family: "apercu",sans-serif;
 }
 [class~=product-category-page] [class~=products-bar]:before{
     height:.75pt;
@@ -8699,7 +8699,7 @@ height:815px;
     padding-bottom:.104166667in;
 }
 [class~=post-item] [class~=post-title]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=home-4] #main-menu > ul > li > a{
     padding-right:.75pc;
@@ -9332,7 +9332,7 @@ height:815px;
     margin-top:18.75pt;
 }
 [class~=sidebar] [class~=product-filter] [class~=filter-item] [class~=filter-title]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=register-page] [class~=register-form],[class~=login-page] [class~=login-form]{
     margin-bottom:0;
@@ -9884,7 +9884,7 @@ height:815px;
     border-radius:.104166667in;
 }
 #footer [class~=footer] [class~=block-title]{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=newsletter-popup] form button{
     padding-bottom:.375pc;
@@ -10406,7 +10406,7 @@ height:815px;
     font-weight:900;
 }
 .newsletter-popup .popup .block-title,.product-detail .payment-intro .block-content .item .title{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=home-5] #footer [class~=footer] [class~=block-title]{
     text-align:center;
@@ -10715,7 +10715,7 @@ height:815px;
     border-radius:50%;
 }
 [class~=product-detail] [class~=product-tab] [class~=tab-nav] ul li a{
-    font-family:"Playfair Display",serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=newsletter-popup] [class~=popup]{
     -moz-border-radius:5px;
@@ -10832,7 +10832,7 @@ height:815px;
     -ms-flex:1;
 }
 #breadcrumb{
-    font-family:"Playfair Display",sans-serif;
+    font-family: "apercu",sans-serif;
 }
 [class~=reviews] [class~=comments-list] [class~=item] [class~=comment-body]{
     flex:1;
