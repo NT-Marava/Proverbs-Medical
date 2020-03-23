@@ -239,7 +239,7 @@ a:hover{
     border-right-color:#3ba66b;
 }
 [class~=btn-primary]{
-    background:#0080bd;
+    background:#131e40;
 }
 .btn-primary:hover{
     border-top-color:#3ba66b;
@@ -10769,7 +10769,7 @@ height:815px;
     width:24px;
 }
 #breadcrumb{
-    background:url("../img/slideshow/5.jpg") no-repeat scroll 0 0;
+    background:url("../img/slideshow/home1-slideshow-2.jpg") no-repeat scroll 0 0;
 }
 [class~=newsletter-popup] [class~=popup]{
     border-radius:5px;

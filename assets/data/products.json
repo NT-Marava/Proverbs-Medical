@@ -558,5 +558,12 @@
         "name": " Spinal Implants",
         "price": "",
         "imageUrl": "assets/img/products/spinal-implants.png"
+    },
+    {
+        "id": 90,
+        "categoryId":5,
+        "name": "Hand Sanitizers",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
     }
 ]

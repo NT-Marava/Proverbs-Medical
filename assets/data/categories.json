@@ -273,6 +273,13 @@
                 "imageUrl": ""
             },
             {
+                "id": 90,
+                "categoryId": 5,
+                "name": "Hand Sanitizers",
+                "price": "",
+                "imageUrl": "assets/img/products/image-placeholder.png"
+            },
+            {
                 "id": 85,
                 "categoryId": 5,
                 "name": "Gloves",
