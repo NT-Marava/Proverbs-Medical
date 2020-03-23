@@ -509,5 +509,54 @@
         "name": " Obgyn/Neonatal Equipment",
         "price": "",
         "imageUrl": "assets/img/products/obgyn-equipment.png"
+    },
+    {
+        "id": 84,
+        "categoryId": 5,
+        "name": "Surgical Gowns",
+        "price": "",
+        "imageUrl": "assets/img/products/surgical-gowns.png"
+    },
+    {
+        "id": 85,
+        "categoryId": 5,
+        "name": "Gloves",
+        "price": "",
+        "imageUrl": "assets/img/products/gloves.png"
+    },
+    {
+        "id": 86,
+        "categoryId": 5,
+        "name": "Face Masks ",
+        "price": "",
+        "imageUrl": "assets/img/products/face-masks.png"
+    },
+    {
+        "id": 87,
+        "categoryId": 5,
+        "name": "Thermometers ",
+        "price": "",
+        "imageUrl": "assets/img/products/thermometers.png"
+    },
+    {
+        "id": 80,
+        "categoryId": 6,
+        "name": " Surgical Instruments",
+        "price": "",
+        "imageUrl": "assets/img/products/image-placeholder.png"
+    },
+    {
+        "id": 81,
+        "categoryId": 6,
+        "name": " Orthopeadic Implants",
+        "price": "",
+        "imageUrl": "assets/img/products/orthopedic-implants.png"
+    },
+    {
+        "id": 82,
+        "categoryId": 6,
+        "name": " Spinal Implants",
+        "price": "",
+        "imageUrl": "assets/img/products/spinal-implants.png"
     }
 ]

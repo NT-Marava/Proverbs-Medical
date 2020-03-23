@@ -213,7 +213,7 @@
         "id": 4,
         "name": "Tape",
         "slug": "tape",
-        "imageUrl": "assets/img/products/zinc-oxide-tape.png",
+        "imageUrl": "assets/img/products/kinesiology-tape.png",
         "products":[
             {
                 "id": 27,
@@ -265,6 +265,34 @@
         "slug": "consumables-and-disposables",
         "imageUrl": "assets/img/products/stomach-feeding-tube.png",
         "products":[
+            {
+                "id": 84,
+                "categoryId": 5,
+                "name": "Surgical Gowns",
+                "price": "",
+                "imageUrl": ""
+            },
+            {
+                "id": 85,
+                "categoryId": 5,
+                "name": "Gloves",
+                "price": "",
+                "imageUrl": ""
+            },
+            {
+                "id": 86,
+                "categoryId": 5,
+                "name": "Face Masks ",
+                "price": "",
+                "imageUrl": ""
+            },
+            {
+                "id": 87,
+                "categoryId": 5,
+                "name": "Thermometers ",
+                "price": "",
+                "imageUrl": ""
+            },
             {
                 "id": 33,
                 "categoryId": 5,
@@ -383,7 +411,7 @@
         "id": 6,
         "name": "Specialised Products",
         "slug": "specialised-products",
-        "imageUrl": "assets/img/products/chromic-catgut-sature.png",
+        "imageUrl": "assets/img/products/spinal-implants.png",
         "products":[
             {
                 "id": 49,
@@ -447,6 +475,27 @@
                 "name": " Surgical drapes",
                 "price": "",
                 "imageUrl": ""
+            },
+            {
+                "id": 80,
+                "categoryId": 6,
+                "name": " Surgical Instruments",
+                "price": "",
+                "imageUrl": ""
+            },
+            {
+                "id": 81,
+                "categoryId": 6,
+                "name": " Orthopeadic Implants",
+                "price": "",
+                "imageUrl": ""
+            },
+            {
+                "id": 82,
+                "categoryId": 6,
+                "name": " Spinal Implants",
+                "price": "",
+                "imageUrl": ""
             }
         ]
     },
@@ -454,7 +503,7 @@
         "id": 7,
         "name": "Surgical Disposables",
         "slug": "surgical-disposables",
-        "imageUrl": "assets/img/products/accu-chek-blood-glucose.png",
+        "imageUrl": "assets/img/products/face-masks.png",
         "products":[
             {
                 "id": 58,
