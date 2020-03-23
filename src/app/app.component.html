@@ -27,9 +27,17 @@
         </div>
         <!-- Cart -->
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div class="block-cart dropdown">
+          <div class="block-cart">
+            <!-- <a href="https://api.whatsapp.com/send?phone=27659695515&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+              <i class="fa fa-whatsapp my-float"></i>
+              </a> -->
 
+              <div id="WAButton">
+                
+              </div>
           </div>
+
+
         </div>
       </div>
     </div>
@@ -94,7 +102,7 @@
                       <i class="zmdi zmdi-home"></i>
                     </div>
                     <div class="item-right">
-                      <span>53 2nd Road, Kew Johannesburg, 2192, South Africa
+                      <span>53 2nd Road, Kew Johannesburg, 2090, South Africa
                       </span>
                     </div>
                   </div>
@@ -104,7 +112,7 @@
                     </div>
                     <div class="item-right">
                       <span><b>Phone :</b> +27659695515<br>
-                        </span>
+                      </span>
                     </div>
                   </div>
                   <div class="item d-flex">
@@ -113,7 +121,7 @@
                     </div>
                     <div class="item-right text-white">
                       <span>
-                        <a class="text-white" href="mailto:proverbsmedical@gmail.com">proverbsmedical@gmail.com</a>
+                        <a class="text-white" href="mailto:info@proverbsmedical.com">info@proverbsmedical.com</a>
                       </span>
                     </div>
                   </div>
@@ -123,16 +131,51 @@
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="block instagram">
-              <h2 class="block-title text-white">Product Photo Gallery</h2>
+            <div class="block-content">
+              <h4 class="item-right text-white">Contact Emails</h4>
+              <br>
+              <div class="contact">
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <i class="zmdi zmdi-email"></i>
+                  </div>
+                  <div class="item-right text-white">
+                    <span>
+                      <a class="text-white" href="mailto:orders@proverbsmedical.com">orders@proverbsmedical.com</a>
+                    </span>
+                  </div>
+                </div>
 
-              <div class="block-content">
-                <div class="row margin-0">
-                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 padding-0" *ngFor="let product of categories">
-                    <a href="#">
-                      <img src="{{ product.imageUrl }}" alt="Instagram Image" style="border-radius:25%;
-                           padding: 3px;">
-                    </a>
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <i class="zmdi zmdi-email"></i>
+                  </div>
+                  <div class="item-right text-white">
+                    <span>
+                      <a class="text-white" href="mailto:accounts@proverbsmedical.com">accounts@proverbsmedical.com</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <i class="zmdi zmdi-email"></i>
+                  </div>
+                  <div class="item-right text-white">
+                    <span>
+                      <a class="text-white" href="mailto:sales@proverbsmedical.com">sales@proverbsmedical.com</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <i class="zmdi zmdi-email"></i>
+                  </div>
+                  <div class="item-right text-white">
+                    <span>
+                      <a class="text-white" href="mailto:sales1@proverbsmedical.com">sales1@proverbsmedical.com</a>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -140,15 +183,36 @@
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="block social">
-              <h2 class="block-title">Follow Us</h2>
-              <div class="block-content">
-                <ul>
-                  <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                  <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                  <li><a href="#"><i class="zmdi zmdi-dribbble"></i></a></li>
-                  <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
-                </ul>
+            <div class="block content">
+              <h4 class="item-right text-white">Follow Us</h4>
+              <div class="contact">
+                    <div class="item d-flex">
+                      <div class="item-left">
+                        <i class="zmdi zmdi-facebook"></i>
+                      </div>
+                      <div class="item-right text-white">
+                          <a class="text-white" href="https://www.facebook.com/ProverbsPty" target="_blank" rel="noopener noreferrer">Proverbs Medical</a> 
+                      </div>
+                    </div>
+                    <br>
+                    <div class="item d-flex">
+                      <div class="item-left">
+                        <i class="zmdi zmdi-twitter"></i>
+                      </div>
+                      <div class="item-right text-white">
+                          <a class="text-white" href="https://www.twitter.com/ProverbsPty" target="_blank" rel="noopener noreferrer">@ProverbsPty</a> 
+                      </div>
+                    </div>
+                    <br>
+                    <div class="item d-flex">
+                      <div class="item-left">
+                        <i class="zmdi zmdi-instagram"></i>
+                      </div>
+                      <div class="item-right text-white">
+                          <a class="text-white" href="https://www.instagram.com/proverbsmedical"
+                           target="_blank" rel="noopener noreferrer">Proverbs Medical</a> 
+                      </div>
+                    </div>                
               </div>
             </div>
           </div>
@@ -166,8 +230,8 @@
 
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 align-right">
             <div class="payment">
-              <span>Payment Accept</span>
-              <img src="assets/img/payment.png" alt="Payment">
+              <!-- <span>Payment Accept</span>
+              <img src="assets/img/payment.png" alt="Payment"> -->
             </div>
           </div>
         </div>
@@ -178,3 +242,4 @@
   <!-- Copyright -->
 
 </footer>
+

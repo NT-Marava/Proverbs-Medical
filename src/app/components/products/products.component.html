@@ -26,10 +26,12 @@
                                 <i class="zmdi zmdi-minus"></i>
                                 <i class="zmdi zmdi-plus"></i>
                             </span>
-                            <a class="category-title" (click)="getCategoryProducts(category.id)" style="cursor:pointer">{{category.name}}</a>
+                            <a class="category-title text-center" (click)="getCategoryProducts(category.id)"
+                                style="cursor:pointer">{{category.name}}</a>
                             <div class="sub-category collapse" [id]=category.slug aria-expanded="true" role="main">
                                 <div class="item" *ngFor="let product of category.products">
-                                    <a style="cursor:pointer" (click)="getSingleProduct(product.id)">{{product.name}}</a>
+                                    <a style="cursor:pointer"
+                                        (click)="getSingleProduct(product.id)">{{product.name}}</a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +48,8 @@
                                 <div class="gridlist-toggle" role="tablist">
                                     <ul class="nav nav-tabs">
                                         <li class="active">
-                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i class="fa fa-th-large"></i>
+                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i
+                                                    class="fa fa-th-large"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -60,15 +63,18 @@
                         <div class="tab-pane active" id="products-grid">
                             <div class="products-block">
                                 <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" *ngFor="let category of categories">
-                                        <div class="product-item" (click)="getCategoryProducts(category.id)" 
-                                        style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"
+                                        *ngFor="let category of categories">
+                                        <div class="product-item" (click)="getCategoryProducts(category.id)"
+                                            style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);border-radius: 0;">
                                             <div class="product-image">
                                                 <a>
-                                                    <img class="img-responsive" src="{{category.imageUrl }}" alt="Product Image">
+                                                    <img class="img-responsive" src="{{category.imageUrl }}"
+                                                        alt="Product Image">
                                                 </a>
                                             </div>
-                                            <div class="product-title">
+                                            <br>
+                                            <div class="product-title text-center">
                                                 <a (click)="getCategoryProducts(category.id)" style="width: 165px;
                                                 display: block;
                                                 overflow: hidden;
@@ -79,11 +85,11 @@
                                                 </a>
                                             </div>
                                             <div class="product-rating">
-                                                <div class="star on"></div>
+                                                <!-- <div class="star on"></div>
                                                 <div class="star on"></div>
                                                 <div class="star on "></div>
                                                 <div class="star on"></div>
-                                                <div class="star"></div>
+                                                <div class="star"></div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -122,32 +128,25 @@
                                             {{ product.name }}
                                         </div>
                                         <br>
-                                        <div class="product-price">
+                                        <!-- <div class="product-price">
                                             <span class="sale-price">$80.00</span>
-                                        </div>
-
+                                        </div> -->
                                         <div class="product-stock">
-                                            <span class="availability">Availability :</span><i class="fa fa-check-square-o"
-                                                aria-hidden="true"></i>In stock
+                                            <span class="availability">Availability :</span><i
+                                                class="fa fa-check-square-o" aria-hidden="true"></i>In stock
                                         </div>
-
                                         <div class="product-short-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            Please Contact Us To Enquire On The Price Of This Product.
                                         </div>
-
-
                                         <div class="product-extra">
-                                            <div class="item">
-
-                                            </div>
-                                            <div class="item">
-                                                <span class="control-label">Categories :</span>
-                                                <a href="#" title="Vegetables">{{product.category}}</a>
-                                            </div>
                                             <div class="item">
                                                 <span class="control-label">Tags :</span>
                                                 <a title="Vegetables">Medical Supplies</a>
                                                 <a title="Fruits">Health Equipment</a>
+                                            </div>
+                                            <div class="item">
+                                                <span class="control-label">Proverbs Medical Supplies PTY (LTD) :</span>
+
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +168,8 @@
                                 <div class="gridlist-toggle" role="tablist">
                                     <ul class="nav nav-tabs">
                                         <li class="active">
-                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i class="fa fa-th-large"></i>
+                                            <a href="#products-grid" data-toggle="tab" aria-expanded="true"><i
+                                                    class="fa fa-th-large"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -189,15 +189,18 @@
                         <div class="tab-pane active" id="products-grid">
                             <div class="products-block">
                                 <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" *ngFor="let product of categoryProducts">
-                                        <div class="product-item" style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"
+                                        *ngFor="let product of categoryProducts">
+                                        <div class="product-item"
+                                            style="box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);border-radius: 0;">
                                             <div class="product-image">
                                                 <a (click)="getSingleProduct(product.id)">
-                                                    <img class="img-responsive" src="{{product.imageUrl }}" alt="Product Image">
+                                                    <img class="img-responsive" src="{{product.imageUrl }}"
+                                                        alt="Product Image">
                                                 </a>
                                             </div>
                                             <br>
-                                            <div class="product-title" style="width:100%; ">
+                                            <div class="product-title text-center" style="width:100%; ">
                                                 <a (click)="getSingleProduct(product.id)" style="    width: 165px;
                                                 display: block;
                                                 overflow: hidden;
@@ -209,11 +212,11 @@
                                                 </a>
                                             </div>
                                             <div class="product-rating">
-                                                <div class="star on"></div>
+                                                <!-- <div class="star on"></div>
                                                 <div class="star on"></div>
                                                 <div class="star on "></div>
                                                 <div class="star on"></div>
-                                                <div class="star"></div>
+                                                <div class="star"></div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -231,3 +234,49 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <div class="container">
+        <h3 class="text-center">Payment Terms</h3>
+        <br>
+        <ul>
+            <li>
+                <p class="product-short-description">
+                    • No refunds, exchanges or returns will be accepted on end of range items, special import
+                    orders, showroom items and buyout items purchased.
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • EFT PAYMENTS - Goods will only be released when payment reflects.
+
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • Free delivery in Gauteng for invoices above R7000
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • No cash payments will be accepted at reception
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • 3% Cash handling fee will be charged for all cash deposited at the bank
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • Please make sure all details on sales orders are correct as no changes can be made once invoiced
+                </p>
+            </li>
+            <li>
+                <p class="product-short-description">
+                    • Please use Company name / Quote number or Sales order number when making payment.
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>

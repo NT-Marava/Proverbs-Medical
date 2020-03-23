@@ -7,22 +7,35 @@ import { Observable } from 'rxjs';
 })
 export class RequestService {
 
-  constructor(private http: HttpClient ) { }
+  constructor(private http: HttpClient) { }
 
   private httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) };
 
 
   getCategories(): Observable<any> {
-    return this.http.get('../../assets/data/categories.json');
+    return this.http.get('https://nt-marava.github.io/proverbs-medical/assets/data/categories.json');
   }
 
 
   getProducts(): Observable<any> {
-    return this.http.get('../../assets/data/products.json');
+    return this.http.get('https://nt-marava.github.io/proverbs-medical/assets/data/products.json');
   }
 
   getServices(): Observable<any> {
-    return this.http.get('../../assets/data/services.json');
+    return this.http.get('https://nt-marava.github.io/proverbs-medical/assets/data/services.json');
   }
+  /*
+    getCategories(): Observable<any> {
+      return this.http.get('../../assets/data/categories.json');
+    }
+
+
+    getProducts(): Observable<any> {
+      return this.http.get('../../assets/data/products.json');
+    }
+
+    getServices(): Observable<any> {
+      return this.http.get('../../assets/data/services.json');
+    } */
 
 }
