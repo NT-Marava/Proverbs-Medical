@@ -2,7 +2,7 @@
 <div id="content" class="site-content">
     <!-- Slideshow -->
     <div class="section slideshow">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -11,31 +11,38 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img class="img-responsive" src="assets/img/slideshow/bg1.png" >
+                    <img class="img-responsive" src="assets/img/slideshow/bg1.png">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <h1></h1>
-                            <p></p>
-
+                        <div class="carousel-caption animated fadeInDown">
+                            <h2>Proverbs Medical</h2>
+                            <br>
+                            <h5>Browse our wide range of Medical & Healthcare products.</h5>
+                            <br>
+                            <a routerLink="/products" class="btn btn-primary text-center">View Products</a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <img class="img-responsive" src="assets/img/slideshow/bg2.png" alt="Second slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <h1></h1>
-                            <p></p>
-
+                        <div class="carousel-caption animated fadeInDown">
+                            <h2>Proverbs Medical</h2>
+                            <br>
+                            <h5>For all your quality medical supplies</h5>
+                            <br>
+                            <a routerLink="/products" class="btn btn-primary text-center">View Products</a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <img class="img-responsive" src="assets/img/slideshow/bg3.png" alt="Third slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <h1></h1>
-                            <p></p>
+                        <div class="carousel-caption animated fadeInDown">
+                            <h2>Proverbs Medical</h2>
+                            <br>
+                            <h5>Browse our wide range of Medical & Healthcare products.</h5>
+                            <br>
+                            <a routerLink="/products" class="btn btn-primary text-center">View Products</a>
                         </div>
                     </div>
                 </div>
@@ -67,6 +74,7 @@
                         </div>
                     </div>
                 </div> -->
+                
             </div>
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left icon-arrow-left" aria-hidden="false"></span>
@@ -79,7 +87,11 @@
         </div>
     </div>
 
-
+<div class="marquee-slide">
+    <marquee behavior="scroll" direction="left">
+        Proverbs Medical Supplies : <span *ngFor="let item of products"> {{ item.name }} • &nbsp; </span>
+    </marquee>
+</div>
     <!-- Intro -->
     <div class="section intro">
         <div class="container">

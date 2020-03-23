@@ -32,10 +32,19 @@
 	<!-- Template CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/reponsive.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 </head>
 
 <body class="home home-1">
 	<div id="all">
+		<style>
+			#WAButton {
+				z-index: 999999999999;
+			}
+		</style>
+		<div id="WAButton">
+                
+		</div> 
 		<app-root></app-root>
 	</div>
 
@@ -64,9 +73,9 @@
 					headerTitle: 'Chat with us on WhatsApp!', //Popup Title
 					popupMessage: 'Hello, how can we help you?', //Popup Message
 					showPopup: true, //Enables popup display
-					buttonImage: '<img src="assets/wpp/whatsapp.svg" />', //Button Image
+					buttonImage: '<img src="assets/wpp/whatsapp2.svg" />', //Button Image
 					//headerColor: 'crimson', //Custom header color
-					backgroundColor: 'crimson', //Custom background button color
+					backgroundColor: '#25d366', //Custom background button color
 					position: "right" //Position: left | right
 	  
 				});

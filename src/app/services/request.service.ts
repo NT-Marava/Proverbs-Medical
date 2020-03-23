@@ -11,7 +11,7 @@ export class RequestService {
 
   private httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) };
 
-
+/*
   getCategories(): Observable<any> {
     return this.http.get('https://nt-marava.github.io/proverbs-medical/assets/data/categories.json');
   }
@@ -23,8 +23,8 @@ export class RequestService {
 
   getServices(): Observable<any> {
     return this.http.get('https://nt-marava.github.io/proverbs-medical/assets/data/services.json');
-  }
-  /*
+  } */
+
     getCategories(): Observable<any> {
       return this.http.get('../../assets/data/categories.json');
     }
@@ -36,6 +36,6 @@ export class RequestService {
 
     getServices(): Observable<any> {
       return this.http.get('../../assets/data/services.json');
-    } */
+    }
 
 }

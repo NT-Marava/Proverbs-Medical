@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
       result => {
         this.products = result;
         this.numOfProducts = this.products.length;
+        console.log(this.products);
       });
   }
 
