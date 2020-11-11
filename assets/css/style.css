@@ -11261,11 +11261,12 @@ height:760px;
 
 #footer .footer{
     /* background:#f7f6f2; */
-    background: url("../img/slideshow/breadcrumb-bg.png");
+    background: url("../img/footer-bg.jpg");
 }
 
 #services , #gallery{
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    background: url("../img/bg-image-1.jpg");
 }
 
 #services h3 , #gallery h3{
@@ -11373,7 +11374,7 @@ h6 {
 }
 
 footer{
-    margin-top:100px;
+    /* margin-top:100px; */
 }
 
 #detail {
